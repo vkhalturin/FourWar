@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.FourWar.Db", "N.FourWar.Db\N.FourWar.Db.csproj", "{7081878A-BE36-4161-925F-7DC7E4A9EF04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.FourWar.Web", "N.FourWar.Web\N.FourWar.Web.csproj", "{A9B5D465-BF42-4565-91F7-F1750C9E2B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.FourWar.Foursquare", "N.FourWar.Foursquare\N.FourWar.Foursquare.csproj", "{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7081878A-BE36-4161-925F-7DC7E4A9EF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7081878A-BE36-4161-925F-7DC7E4A9EF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7081878A-BE36-4161-925F-7DC7E4A9EF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7081878A-BE36-4161-925F-7DC7E4A9EF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B5D465-BF42-4565-91F7-F1750C9E2B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B5D465-BF42-4565-91F7-F1750C9E2B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B5D465-BF42-4565-91F7-F1750C9E2B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B5D465-BF42-4565-91F7-F1750C9E2B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿@model N.FourWar.Web.Models.UserModel
+
+@{
+    ViewBag.Title = "Get user";
+}
+
+<h2>Get user</h2>
+
+@using(Html.BeginForm(MVC.Home.User()))
+{
+    @Html.TextBoxFor(m => m.Id)
+    <input type="submit" value="Get user"/>
+}
+
+@using(Html.BeginForm(MVC.Home.User()))
+{
+    @Html.TextBoxFor(m => m.Id, new { @Value = "5861966" })
+    <input type="submit" value="Get sample user"/>
+}
