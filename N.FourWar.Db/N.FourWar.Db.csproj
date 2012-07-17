@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\User.cs" />
-    <Compile Include="Entities\UserProfile.cs" />
+    <Compile Include="Entities\Characteristics.cs" />
     <Compile Include="FourWarContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

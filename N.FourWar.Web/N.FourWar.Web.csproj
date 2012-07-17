@@ -134,26 +134,6 @@
     <Compile Include="HomeController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201207130644133_Init.cs" />
-    <Compile Include="Migrations\201207130644133_Init.Designer.cs">
-      <DependentUpon>201207130644133_Init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201207130645341_Users_AddColumn_Title.cs" />
-    <Compile Include="Migrations\201207130645341_Users_AddColumn_Title.Designer.cs">
-      <DependentUpon>201207130645341_Users_AddColumn_Title.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201207130655223_Users_DeleteColumns_Title_PasswordSalt.cs" />
-    <Compile Include="Migrations\201207130655223_Users_DeleteColumns_Title_PasswordSalt.Designer.cs">
-      <DependentUpon>201207130655223_Users_DeleteColumns_Title_PasswordSalt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201207130729429_Users_RenameColumn_Password.cs" />
-    <Compile Include="Migrations\201207130729429_Users_RenameColumn_Password.Designer.cs">
-      <DependentUpon>201207130729429_Users_RenameColumn_Password.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201207130808442_Users_AddColumn_FoursquareId.cs" />
-    <Compile Include="Migrations\201207130808442_Users_AddColumn_FoursquareId.Designer.cs">
-      <DependentUpon>201207130808442_Users_AddColumn_FoursquareId.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

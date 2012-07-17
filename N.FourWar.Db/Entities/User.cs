@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace N.FourWar.Db.Entities
 {
@@ -16,7 +15,6 @@ namespace N.FourWar.Db.Entities
 
         public string PasswordHash { get; set; }
 
-        [Required]
         public virtual Characteristics Characteristics { get; set; }
     }
 }

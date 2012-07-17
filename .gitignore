@@ -8,9 +8,12 @@
 *.so
 bin
 obj
+
+# VS additional files #
+#######################
 _ReSharper*
-.suo
-.user
+*.suo
+*.user
 
 # Packages #
 ############
