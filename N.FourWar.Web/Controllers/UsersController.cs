@@ -1,41 +1,27 @@
 ﻿using System.Collections.Generic;
-using System.Web.Http;
-using N.FourWar.Db;
-using N.FourWar.Db.Entities;
+using System.Web.Mvc;
+using Igloo.SharpSquare.Core;
+using Igloo.SharpSquare.Entities;
+using N.FourWar.Foursquare;
 
 namespace N.FourWar.Web.Controllers
 {
-    public class UsersController : ApiController
+    public partial class UsersController : Controller
     {
-        private readonly FourWarContext _context = new FourWarContext();
-
-        // GET api/values
-        public IEnumerable<User> GetAll()
+        public virtual ActionResult Login()
         {
-            return _context.Users;
+            var api = new SharpSquare(Const.ClientId, Const.ClientSecret);
+            var authenticateUrl = api.GetAuthenticateUrl(Const.RedirectUrl);
+            string token = api.GetAccessToken(Const.RedirectUrl, "wazzup");
+            List<Checkin> checkins = api.GetRecentCheckin();
+            return Json(checkins);
         }
 
-        // GET api/values/5
-        public User Get(int id)
+        public virtual ActionResult LoginFoursquare()
         {
-            // todo get user from foursquare here
-
-            return null;
-        }
-
-        // POST api/values
-        public void Post(string value)
-        {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
+            var api = new SharpSquare(Const.ClientId, Const.ClientSecret);
+            var authenticateUrl = api.GetAuthenticateUrl(Request.UrlReferrer.ToString());
+            return Redirect(authenticateUrl);
         }
     }
 }

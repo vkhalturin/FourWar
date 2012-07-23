@@ -7,7 +7,7 @@ namespace N.FourWar.Db.Entities
         [Key]
         public long Id { get; set; }
 
-        public long FoursquareId { get; set; }
+        public long? FoursquareId { get; set; }
             
         public string OAuthToken { get; set; }
 

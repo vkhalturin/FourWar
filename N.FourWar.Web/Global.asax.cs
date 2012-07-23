@@ -25,7 +25,13 @@ namespace N.FourWar.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             RegisterDatabase();
+            InitDatabase();
             CheckDatabase();
+        }
+
+        private void InitDatabase()
+        {
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<FourWarContext>());
         }
 
         private void CheckDatabase()

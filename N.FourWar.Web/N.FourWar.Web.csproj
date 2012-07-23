@@ -40,6 +40,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SharpSquare">
+      <HintPath>..\N.FourWar.Common\Lib\SharpSquare.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -126,15 +129,18 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\FoursquareController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="FousquareController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HomeController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SharedController.generated.cs">
@@ -146,6 +152,9 @@
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="T4MVC.ModelUnbinder.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsersController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -253,6 +262,14 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Neverov\Neverov.Framework\Neverov.Framework.csproj">
+      <Project>{E81E821B-DE00-4CED-9A1B-7667B71D841D}</Project>
+      <Name>Neverov.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\N.FourWar.Common\N.FourWar.Common.csproj">
+      <Project>{778e114c-88f5-4633-89dd-6540956e21e0}</Project>
+      <Name>N.FourWar.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\N.FourWar.Db\N.FourWar.Db.csproj">
       <Project>{7081878A-BE36-4161-925F-7DC7E4A9EF04}</Project>
       <Name>N.FourWar.Db</Name>

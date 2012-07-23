@@ -23,7 +23,9 @@ using T4MVC;
 
 [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
 public static class MVC {
+    public static N.FourWar.Web.Controllers.FoursquareController Foursquare = new N.FourWar.Web.Controllers.T4MvcFoursquareController();
     public static N.FourWar.Web.Controllers.HomeController Home = new N.FourWar.Web.Controllers.T4MVC_HomeController();
+    public static N.FourWar.Web.Controllers.UsersController Users = new N.FourWar.Web.Controllers.T4MVC_UsersController();
     public static T4MVC.SharedController Shared = new T4MVC.SharedController();
 }
 

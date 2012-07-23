@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,57 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FoursquareApi.cs" />
-    <Compile Include="Domain\Badges.cs" />
-    <Compile Include="Domain\BeenHere.cs" />
-    <Compile Include="Domain\BeenHere3.cs" />
-    <Compile Include="Domain\Category.cs" />
-    <Compile Include="Domain\Checkin.cs" />
-    <Compile Include="Domain\Checkin2.cs" />
-    <Compile Include="Domain\Checkins.cs" />
-    <Compile Include="Domain\Comments.cs" />
-    <Compile Include="Domain\Contact.cs" />
-    <Compile Include="Domain\Contact2.cs" />
-    <Compile Include="Domain\Contact3.cs" />
-    <Compile Include="Domain\Following.cs" />
-    <Compile Include="Domain\Friends.cs" />
-    <Compile Include="Domain\FriendVisits.cs" />
-    <Compile Include="Domain\Group.cs" />
-    <Compile Include="Domain\Image.cs" />
-    <Compile Include="Domain\Item.cs" />
-    <Compile Include="Domain\Item2.cs" />
-    <Compile Include="Domain\Item3.cs" />
-    <Compile Include="Domain\Item4.cs" />
-    <Compile Include="Domain\Item5.cs" />
-    <Compile Include="Domain\Item6.cs" />
-    <Compile Include="Domain\Item7.cs" />
-    <Compile Include="Domain\Item8.cs" />
-    <Compile Include="Domain\Likes.cs" />
-    <Compile Include="Domain\Listed.cs" />
-    <Compile Include="Domain\Lists.cs" />
-    <Compile Include="Domain\Location.cs" />
-    <Compile Include="Domain\Location2.cs" />
-    <Compile Include="Domain\Location3.cs" />
-    <Compile Include="Domain\Location4.cs" />
-    <Compile Include="Domain\Mayorships.cs" />
-    <Compile Include="Domain\Meta.cs" />
-    <Compile Include="Domain\Notification.cs" />
-    <Compile Include="Domain\Photos.cs" />
-    <Compile Include="Domain\Photos3.cs" />
-    <Compile Include="Domain\Requests.cs" />
-    <Compile Include="Domain\Response.cs" />
-    <Compile Include="Domain\RootObject.cs" />
-    <Compile Include="Domain\Scores.cs" />
-    <Compile Include="Domain\Sizes.cs" />
-    <Compile Include="Domain\Source.cs" />
-    <Compile Include="Domain\Stats.cs" />
-    <Compile Include="Domain\Tips.cs" />
-    <Compile Include="Domain\Todos.cs" />
-    <Compile Include="Domain\Unlock.cs" />
-    <Compile Include="Domain\User.cs" />
-    <Compile Include="Domain\User2.cs" />
-    <Compile Include="Domain\Venue.cs" />
-    <Compile Include="Domain\Venue2.cs" />
+    <Compile Include="Const.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
