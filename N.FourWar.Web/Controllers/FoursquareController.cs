@@ -24,7 +24,7 @@ namespace N.FourWar.Web.Controllers
             }
             var api = new SharpSquare(Const.ClientId, Const.ClientSecret);
             var tokenUrl = api.GetAccessToken(Const.RedirectUrl, code);
-            var request =  WebRequest.Create(tokenUrl);
+            var request =  WebRequest.Create(tokenUrl) as HttpWebRequest;
             using (var response = request.GetResponse())
             {
                 using (var reader = new StreamReader(response.GetResponseStream()))

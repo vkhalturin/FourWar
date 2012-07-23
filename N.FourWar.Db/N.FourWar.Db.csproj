@@ -52,6 +52,10 @@
     <Compile Include="Migrations\201207231241393_InitialCreate.Designer.cs">
       <DependentUpon>201207231241393_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201207231338515_Characteristics_ColumnRename_Experience_To_Exp.cs" />
+    <Compile Include="Migrations\201207231338515_Characteristics_ColumnRename_Experience_To_Exp.Designer.cs">
+      <DependentUpon>201207231338515_Characteristics_ColumnRename_Experience_To_Exp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
