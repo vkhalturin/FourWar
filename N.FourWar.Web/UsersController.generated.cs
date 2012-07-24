@@ -55,14 +55,10 @@ namespace N.FourWar.Web.Controllers {
         public ActionNamesClass ActionNames { get { return s_actions; } }
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public class ActionNamesClass {
-            public readonly string Login = "Login";
-            public readonly string LoginFoursquare = "LoginFoursquare";
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public class ActionNameConstants {
-            public const string Login = "Login";
-            public const string LoginFoursquare = "LoginFoursquare";
         }
 
 
@@ -77,16 +73,6 @@ namespace N.FourWar.Web.Controllers {
     [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
     public class T4MVC_UsersController: N.FourWar.Web.Controllers.UsersController {
         public T4MVC_UsersController() : base(Dummy.Instance) { }
-
-        public override System.Web.Mvc.ActionResult Login() {
-            var callInfo = new T4MVC_ActionResult(Area, Name, ActionNames.Login);
-            return callInfo;
-        }
-
-        public override System.Web.Mvc.ActionResult LoginFoursquare() {
-            var callInfo = new T4MVC_ActionResult(Area, Name, ActionNames.LoginFoursquare);
-            return callInfo;
-        }
 
     }
 }

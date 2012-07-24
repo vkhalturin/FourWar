@@ -87,8 +87,8 @@ namespace N.FourWar.Web.Controllers {
     }
 
     [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-    public class T4MvcFoursquareController: N.FourWar.Web.Controllers.FoursquareController {
-        public T4MvcFoursquareController() : base(Dummy.Instance) { }
+    public class T4MVC_FoursquareController: N.FourWar.Web.Controllers.FoursquareController {
+        public T4MVC_FoursquareController() : base(Dummy.Instance) { }
 
         public override System.Web.Mvc.ActionResult Authenticate() {
             var callInfo = new T4MVC_ActionResult(Area, Name, ActionNames.Authenticate);

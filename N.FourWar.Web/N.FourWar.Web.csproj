@@ -132,7 +132,7 @@
     <Compile Include="Controllers\FoursquareController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
-    <Compile Include="FousquareController.generated.cs">
+    <Compile Include="FoursquareController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
@@ -273,10 +273,6 @@
     <ProjectReference Include="..\N.FourWar.Db\N.FourWar.Db.csproj">
       <Project>{7081878A-BE36-4161-925F-7DC7E4A9EF04}</Project>
       <Name>N.FourWar.Db</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\N.FourWar.Foursquare\N.FourWar.Foursquare.csproj">
-      <Project>{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}</Project>
-      <Name>N.FourWar.Foursquare</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

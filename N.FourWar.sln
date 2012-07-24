@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.FourWar.Db", "N.FourWar.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.FourWar.Web", "N.FourWar.Web\N.FourWar.Web.csproj", "{A9B5D465-BF42-4565-91F7-F1750C9E2B93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.FourWar.Foursquare", "N.FourWar.Foursquare\N.FourWar.Foursquare.csproj", "{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neverov.Framework", "..\Neverov\Neverov.Framework\Neverov.Framework.csproj", "{E81E821B-DE00-4CED-9A1B-7667B71D841D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.FourWar.Common", "N.FourWar.Common\N.FourWar.Common.csproj", "{778E114C-88F5-4633-89DD-6540956E21E0}"
@@ -29,10 +27,6 @@ Global
 		{A9B5D465-BF42-4565-91F7-F1750C9E2B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B5D465-BF42-4565-91F7-F1750C9E2B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B5D465-BF42-4565-91F7-F1750C9E2B93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBC2B468-C26C-4AFC-8B0B-12FD3A14C936}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E81E821B-DE00-4CED-9A1B-7667B71D841D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E81E821B-DE00-4CED-9A1B-7667B71D841D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E81E821B-DE00-4CED-9A1B-7667B71D841D}.Release|Any CPU.ActiveCfg = Release|Any CPU
