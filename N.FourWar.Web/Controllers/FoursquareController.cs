@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
 using Igloo.SharpSquare.Core;
+using N.FourWar.Common;
 using N.FourWar.Db;
 
 namespace N.FourWar.Web.Controllers
@@ -27,7 +28,7 @@ namespace N.FourWar.Web.Controllers
             var api = new SharpSquare(ClientId, ClientSecret);
             string token = api.GetAccessToken(RedirectUrl, code);
             api.SetAccessToken(token);
-            var user = api.GetUser("self");
+            var user = api.GetUser();
             // todo store token to user
             using(var context = new FourWarContext())
             {
